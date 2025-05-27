@@ -54,3 +54,16 @@ This project is a simple web application that converts text to speech using **AW
   "language_code": "en-US",
   "voice_id": "Joanna"
 }
+
+## Testing with curl
+
+You can test the deployed Lambda function directly from your terminal using the following `curl` command. Replace `<API_ENDPOINT>` with your actual API Gateway invoke URL.
+
+```bash
+curl -X POST <API_ENDPOINT> \
+  -H "Content-Type: application/json" \
+  -d '{
+    "text": "Welcome to AWS Polly!",
+    "language_code": "en-US",
+    "voice_id": "Joanna"
+  }'
