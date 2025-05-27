@@ -71,6 +71,6 @@ curl -X POST <API_ENDPOINT> \
 ## Structure 
 ```bash
 ├── index.html          # Frontend HTML, CSS, JS
-├── lambda_function.js  # AWS Lambda function code (Node.js)
+├── lambda_function.js  # AWS Lambda function code (Python)
 └── README.md           # Project documentation
 
