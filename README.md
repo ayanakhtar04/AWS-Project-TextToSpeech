@@ -67,3 +67,10 @@ curl -X POST <API_ENDPOINT> \
     "language_code": "en-US",
     "voice_id": "Joanna"
   }'
+```
+## Structure 
+```bash
+├── index.html          # Frontend HTML, CSS, JS
+├── lambda_function.js  # AWS Lambda function code (Node.js)
+└── README.md           # Project documentation
+
